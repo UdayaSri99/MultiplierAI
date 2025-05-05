@@ -1,4 +1,4 @@
-// src/components/AddTodo.js
+
 
 import React, { useState } from 'react';
 import axios from 'axios';
@@ -12,7 +12,7 @@ const AddTodo = ({ fetchTodos }) => {
 
     try {
       await axios.post('http://localhost:5000/api/todos', { text: todoText });
-      fetchTodos();  // Re-fetch todos after adding new one
+      fetchTodos();  
       setTodoText('');
     } catch (error) {
       console.error('Error adding todo:', error);
