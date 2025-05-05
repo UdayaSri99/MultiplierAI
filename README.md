@@ -7,8 +7,8 @@ A simple full-stack To-Do List application built using the MERN stack (MongoDB, 
 
 # environmenatal Variables
 ---
-MONGO_URI= mongodb+srv://udayasrivalluri354:alexacer@cluster0.lb8zdhc.mongodb.net/
-PORT=5000
+---MONGO_URI= mongodb+srv://udayasrivalluri354:alexacer@cluster0.lb8zdhc.mongodb.net/
+---PORT=5000
 
 
 
