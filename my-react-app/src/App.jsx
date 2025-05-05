@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AddTodo from './Components/AddTodo' ;
 import TodoList from './Components/TodoList' ;
+import './App.css'
 
 const App = () => {
   const [todos, setTodos] = useState([]);
