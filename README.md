@@ -3,6 +3,13 @@
 A simple full-stack To-Do List application built using the MERN stack (MongoDB, Express.js, React, Node.js). This app allows users to add, view, and delete tasks.
 
 ---
+# SetUp - Follow the Steps Below
+
+# environmenatal Variables
+---
+MONGO_URI= mongodb+srv://udayasrivalluri354:alexacer@cluster0.lb8zdhc.mongodb.net/
+PORT=5000
+
 
 
 # Backend SetUp
@@ -22,7 +29,7 @@ A simple full-stack To-Do List application built using the MERN stack (MongoDB, 
 - **Database:** MongoDB
 - **HTTP Client:** Axios
 
----
 
-## 📂 Project Structure
+
+
 
